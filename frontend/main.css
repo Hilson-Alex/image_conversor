@@ -1,0 +1,61 @@
+html {
+    background-color: #231f20;
+    text-align: center;
+    color: white;
+}
+
+body {
+    margin: 0;
+    color: white;
+    font-family: "Verdana";
+    font-size: large;
+}
+
+#app main{
+    height: 100vh;
+    text-align: center;
+}
+
+.conversion-step {
+    align-content: center;
+    height: 30%;
+    min-height: 149px;
+    border-style: none none solid none;
+    border-width: 1px;
+    border-color: gray;
+}
+
+.borderless {
+    border-color: transparent;
+    height: 28%;
+    min-height: fit-content;
+}
+
+.borderless > .main.btn {
+    font-size: larger;
+}
+
+.show-file {
+    font-size: small;
+    min-height: 16px;
+}
+
+.main.btn {
+        border-radius: 10px;
+        padding: 14px;
+        color: white;
+        background-color: purple;
+        border: 0px;
+}
+
+.main.btn:hover {
+    background-color: #930293;
+}
+
+.dest-type {
+    text-align-last: center;
+    background-color: #eaeaea;
+    font-size: large;
+    padding: 5px 10vw;
+    border-color: purple;
+}

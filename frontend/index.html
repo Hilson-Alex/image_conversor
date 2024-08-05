@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge, Chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/png" href="data:image/png;base64,iVBORw0KGgo=">
+    <!-- Main Source Files -->
+    <link rel="stylesheet" href="main.css" />
+    <script src="main.js"></script>
+</head>
+
+<body id="app" class="app">
+    <header>
+        <!--  -->
+    </header>
+    <main>
+        <section class="conversion-step">
+            <p>Escolha a imagem que deseja converter:</p>
+            <button class="main btn" onclick="getFile()">Selecionar</button>
+            <input type="hidden" name="sourcePath" id="sourcePath" value="" />
+            <p id="filename" class="show-file"></p>
+        </section>
+        <section class="conversion-step">
+            <p>Selecione o formato de destino:</p> 
+            <select name="dest-type" id="dest-type" class="dest-type">
+                <option value="png">*.png</option>
+                <option value="jpg">*.jpg</option>
+                <option value="bmp">*.bmp (Bitmap)</option>
+                <option value="tiff">*.tiff</option>
+            </select>
+        </section>
+        <section class="borderless conversion-step" >
+            <button class="main btn" name="convert" id="convert" onclick="convertImage()" disabled >
+                Converter
+            </button>
+        </section>
+    </main>
+    <footer>
+        <!--  -->
+    </footer>
+</body>
+
+</html>

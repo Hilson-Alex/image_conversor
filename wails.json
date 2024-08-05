@@ -1,0 +1,13 @@
+{
+    "version": "1.0.0",
+    "name": "Image Converter",
+    "outputfilename": "img_conversor",
+    "build:dir": "./",
+    "frontend:dir": "./frontend",
+    "frontend:install": "",
+    "frontend:build": "",
+    "author": {
+        "name": "H. Alexandre",
+        "email": "hilson.alex234@gmail.com"
+    }
+}
