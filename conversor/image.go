@@ -11,9 +11,9 @@ import (
 	"path/filepath"
 	"strings"
 
+	"github.com/HugoSmits86/nativewebp"
 	"golang.org/x/image/bmp"
 	"golang.org/x/image/tiff"
-	_ "golang.org/x/image/webp"
 
 	"github.com/wailsapp/wails/v2/pkg/runtime"
 )
@@ -37,6 +37,9 @@ var encoders = map[string]func(io.Writer, image.Image) error{
 		return jpeg.Encode(w, i, &jpeg.Options{
 			Quality: 100,
 		})
+	},
+	"webp": func(w io.Writer, i image.Image) error {
+		return nativewebp.Encode(w, i, nil)
 	},
 }
 
