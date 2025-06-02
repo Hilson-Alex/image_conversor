@@ -27,6 +27,7 @@ If you choose multiple files, an zip with all the results will be saved.
 - PNG
 - Bitmap
 - Tiff
+- WebP
 
 > I'll try to add WebP too
 
@@ -79,4 +80,4 @@ We use [SemVer](http://semver.org/) for versioning. For the versions available, 
 This project is under the MIT License - for more info read the [LICENSE](LICENSE) file
 
 [Hilson-Alex]: https://github.com/Hilson-Alex
-[latest-tag]: https://github.com/Hilson-Alex/image_conversor/releases/tag/1.0.0
+[latest-tag]: https://github.com/Hilson-Alex/image_conversor/releases/tag/1.1.0
